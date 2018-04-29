@@ -8,7 +8,9 @@
  *  - exponent
  *  - factorial
  *  
- *  Then in setup, print sample calculations to make sure your functions work
+ * Then in setup, print sample calculations to make sure your functions work
+ *  
+ * Try printing 3 / 2, look up integer division starting here: "https://www.arduino.cc/reference/en/language/structure/arithmetic-operators/division/"
  */
 
 
@@ -19,14 +21,28 @@ void setup()
   delay(100); // This is just generally good form for opening the Serial monitor
   
   // Test your functions here:
+
+  // Addition
   Serial.print("5 + 6 = ");
   Serial.println(addition(5, 6));
 
+  // Subtraction
+
+  // Multiplication
+
+  // Division
+
+  // Modulo
+
+  // Exponent
+
+  // Factorial
+  
 }
 
 
 // Don't do anything with the void loop for now
-void loop();
+void loop(){}
 
 // Addition
 int addition(int a, int b)
