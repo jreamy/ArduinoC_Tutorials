@@ -1,0 +1,4 @@
+Some things you could do with the program:
+ - give it a _lastReading variable and a function getLastReading()
+ - give it a potReadVoltage() function which returns the voltage amount
+ - give it a potReadAngle() function which returns the angle of the potentiometer shaft
