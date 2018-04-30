@@ -15,3 +15,4 @@ class Potentiometer
     int potReadPercent();
 };
 
+#endif
