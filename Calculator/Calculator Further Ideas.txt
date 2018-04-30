@@ -1,0 +1,6 @@
+Some things you could do with the program:
+ - make the calculator functions able to use floats ('overloading' functions will come up in future examples)
+ - make the calculator 'calculate' function take a String and have it parse the input (then you'd need to parse the whole input and send it all at once)
+ - make the read function automatically ignore spaces
+ - write your own functions (pythagorean theorem, quadratic formula, etc.)
+ 
