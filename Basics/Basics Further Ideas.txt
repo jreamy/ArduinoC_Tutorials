@@ -1,0 +1,9 @@
+Keep writing functions... 
+
+Look up character arrays, write functions that:
+  -  print them backwards,
+  -  take user input and fill them,
+  -  search for a character,
+  -  sort the array alphabetically,
+  -  encode and decode an array
+
