@@ -1,0 +1,18 @@
+This library is really useful for a lot of things, but as always, it can be improved.
+
+Some things to look into:
+  - the isAttached function and pinPosition function do almost the same thing.  The 
+      isAttached function could easily be removed, or could be the public getter 
+      function akin to pinPosition.  Either way, the other functions wich call both 
+      isAttached and pinPosition are redundant.  So, you could remove isAttached by 
+      taking the pinPosition and seeing if it is >= 0.
+  - the library takes a decent amount of memory at present.  Consider if it's important
+      to know if the button was pressed and if it was released at the same time, or if
+      that information could be stored in a single int.  Does the debounce really need
+      to be specific to each button? or could it be stored in a single unsigned long 
+      instead of an array?
+
+This is where versatility and preference play major roles.  You can go for a very
+  detailed library which takes a lot of memory, or could downsize and lose some 
+  versatility.  That's where conditional compiling comes in (Part 7).  You can rewrite
+  the library so that it depends on the '#define'd states before import.
